@@ -3,6 +3,7 @@
 
 <head>
   <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel=stylesheet href=https:&#x2F;&#x2F;www.arewewebyet.org&#x2F;styles.css>
   <link rel=stylesheet href=https:&#x2F;&#x2F;www.arewewebyet.org&#x2F;gh-fork-ribbon.css>
   <link href=/atom.xml type=application/atom+xml rel=alternate title="Atom feed (for state changes and news)">
@@ -25,24 +26,26 @@
 
 <body>
 
-  <div role="content" class="content">
+  <main role="content" class="content">
+    <img src="/rust.png" alt="" class="rust-logo">
     
+<article class="article">
 
-<h1>Serializers 
+  <h1>Serializers 
 <span class="level-indicator level-0"  title="everything is awesome: stable, tested and mature" >
- <i class="fa fa-check-circle"></i>
+ <i class="icon fa fa-check-circle"></i>
  </span>
 </h1>
 
+  
+  <p>Serializers allow you to easily transfer states and reliably get it back – important not only when working with JSON but also backbone of many types of worker-queue systems. Many of these crates are built on top of <a href="https://www.arewewebyet.org/topics/serializer/#pkg-serde">Serde</a>, the awesome serialization framework for Rust.</p>
 
-<p>Serializers allow you to easily transfer states and reliably get it back – important not only when working with JSON but also backbone of many types of worker-queue systems. Many of these crates are built on top of <a href="https://www.arewewebyet.org/topics/serializer/#pkg-serde">Serde</a>, the awesome serialization framework for Rust.</p>
+  
 
+  
 
-
-
-
-
-
+  
+  
 <ul class="pkg-list">
   
   
@@ -51,24 +54,27 @@
   
 <li id="pkg-async-bincode" class="pkg">
   <span class="pkg-name"
-    title="est. 2018-05-23, last updated: 2019-11-27">async-bincode</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/async-bincode"><i class="fa fa-cube"></i></a>
-  
+    title="est. 2018-05-23, last updated: 2023-11-11">async-bincode</span>
 
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;jonhoo&#x2F;async-bincode"><i class="fa fa-home"></i></a>
-  
+  <div class="pkg-links">
+    
+    <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/async-bincode"><i class="fa fa-cube"></i></a>
+    
+
+    
+    <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;jonhoo&#x2F;async-bincode"><i class="fa fa-home"></i></a>
+    
 
 
-  
+    
 
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;jonhoo&#x2F;async-bincode.git"><i class="fa fa-code"></i></a>
-  
+    
+    <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;jonhoo&#x2F;async-bincode.git"><i class="fa fa-code"></i></a>
+    
 
-  <a class="pkg-link action" title="permalink" href="#pkg-async-bincode"><i
-      class="fa fa-hashtag"></i></a>
+    <a class="pkg-link action" title="permalink" href="#pkg-async-bincode"><i
+            class="fa fa-hashtag"></i></a>
+  </div>
 
   
   <p class="pkg-meta">
@@ -94,24 +100,27 @@
   
 <li id="pkg-bincode" class="pkg">
   <span class="pkg-name"
-    title="est. 2014-11-20, last updated: 2020-06-24">bincode</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/bincode"><i class="fa fa-cube"></i></a>
-  
+    title="est. 2014-11-20, last updated: 2023-03-30">bincode</span>
 
-  
+  <div class="pkg-links">
+    
+    <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/bincode"><i class="fa fa-cube"></i></a>
+    
+
+    
 
 
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;bincode"><i class="fa fa-book"></i></a>
-  
+    
+    <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;bincode"><i class="fa fa-book"></i></a>
+    
 
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;servo&#x2F;bincode"><i class="fa fa-code"></i></a>
-  
+    
+    <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;bincode-org&#x2F;bincode"><i class="fa fa-code"></i></a>
+    
 
-  <a class="pkg-link action" title="permalink" href="#pkg-bincode"><i
-      class="fa fa-hashtag"></i></a>
+    <a class="pkg-link action" title="permalink" href="#pkg-bincode"><i
+            class="fa fa-hashtag"></i></a>
+  </div>
 
   
   <p class="pkg-meta">
@@ -120,55 +129,12 @@
     <img src="https://img.shields.io/crates/l/bincode.svg" />
     
       
-      <img src="https://img.shields.io/github/last-commit/servo&#x2F;bincode.svg">
+      <img src="https://img.shields.io/github/last-commit/bincode-org&#x2F;bincode.svg">
     
     </p>
   
   <p class="pkg-desc">
-    A binary serialization &#x2F; deserialization strategy that uses Serde for transforming structs into bytes and vice versa!
-  </p>
-</li>
-
-
-  
-  
-
-
-  
-<li id="pkg-flatbuffers" class="pkg">
-  <span class="pkg-name"
-    title="est. 2016-06-01, last updated: 2020-10-29">flatbuffers</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/flatbuffers"><i class="fa fa-cube"></i></a>
-  
-
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;google.github.io&#x2F;flatbuffers&#x2F;"><i class="fa fa-home"></i></a>
-  
-
-
-  
-
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;google&#x2F;flatbuffers"><i class="fa fa-code"></i></a>
-  
-
-  <a class="pkg-link action" title="permalink" href="#pkg-flatbuffers"><i
-      class="fa fa-hashtag"></i></a>
-
-  
-  <p class="pkg-meta">
-    <img src="https://img.shields.io/crates/v/flatbuffers.svg" />
-    <img src="https://img.shields.io/crates/d/flatbuffers.svg" />
-    <img src="https://img.shields.io/crates/l/flatbuffers.svg" />
-    
-      
-      <img src="https://img.shields.io/github/last-commit/google&#x2F;flatbuffers.svg">
-    
-    </p>
-  
-  <p class="pkg-desc">
-    Official FlatBuffers Rust runtime library.
+    A binary serialization &#x2F; deserialization strategy for transforming structs into bytes and vice versa!
   </p>
 </li>
 
@@ -180,24 +146,27 @@
   
 <li id="pkg-rmp" class="pkg">
   <span class="pkg-name"
-    title="est. 2015-05-15, last updated: 2019-12-29">rmp</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/rmp"><i class="fa fa-cube"></i></a>
-  
+    title="est. 2015-05-15, last updated: 2023-07-21">rmp</span>
 
-  
+  <div class="pkg-links">
+    
+    <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/rmp"><i class="fa fa-cube"></i></a>
+    
+
+    
 
 
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;rmp"><i class="fa fa-book"></i></a>
-  
+    
+    <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;rmp"><i class="fa fa-book"></i></a>
+    
 
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;3Hren&#x2F;msgpack-rust"><i class="fa fa-code"></i></a>
-  
+    
+    <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;3Hren&#x2F;msgpack-rust"><i class="fa fa-code"></i></a>
+    
 
-  <a class="pkg-link action" title="permalink" href="#pkg-rmp"><i
-      class="fa fa-hashtag"></i></a>
+    <a class="pkg-link action" title="permalink" href="#pkg-rmp"><i
+            class="fa fa-hashtag"></i></a>
+  </div>
 
   
   <p class="pkg-meta">
@@ -223,26 +192,29 @@
   
 <li id="pkg-serde" class="pkg">
   <span class="pkg-name"
-    title="est. 2014-12-05, last updated: 2020-10-15">serde</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/serde"><i class="fa fa-cube"></i></a>
-  
+    title="est. 2014-12-05, last updated: 2024-01-02">serde</span>
 
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;serde.rs"><i class="fa fa-home"></i></a>
-  
+  <div class="pkg-links">
+    
+    <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/serde"><i class="fa fa-cube"></i></a>
+    
+
+    
+    <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;serde.rs"><i class="fa fa-home"></i></a>
+    
 
 
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.serde.rs&#x2F;serde&#x2F;"><i class="fa fa-book"></i></a>
-  
+    
+    <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;serde"><i class="fa fa-book"></i></a>
+    
 
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;serde-rs&#x2F;serde"><i class="fa fa-code"></i></a>
-  
+    
+    <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;serde-rs&#x2F;serde"><i class="fa fa-code"></i></a>
+    
 
-  <a class="pkg-link action" title="permalink" href="#pkg-serde"><i
-      class="fa fa-hashtag"></i></a>
+    <a class="pkg-link action" title="permalink" href="#pkg-serde"><i
+            class="fa fa-hashtag"></i></a>
+  </div>
 
   
   <p class="pkg-meta">
@@ -268,24 +240,27 @@
   
 <li id="pkg-serde_json" class="pkg">
   <span class="pkg-name"
-    title="est. 2015-08-07, last updated: 2020-10-12">serde_json</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/serde_json"><i class="fa fa-cube"></i></a>
-  
+    title="est. 2015-08-07, last updated: 2024-01-04">serde_json</span>
 
-  
+  <div class="pkg-links">
+    
+    <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/serde_json"><i class="fa fa-cube"></i></a>
+    
+
+    
 
 
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.serde.rs&#x2F;serde_json&#x2F;"><i class="fa fa-book"></i></a>
-  
+    
+    <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;serde_json"><i class="fa fa-book"></i></a>
+    
 
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;serde-rs&#x2F;json"><i class="fa fa-code"></i></a>
-  
+    
+    <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;serde-rs&#x2F;json"><i class="fa fa-code"></i></a>
+    
 
-  <a class="pkg-link action" title="permalink" href="#pkg-serde_json"><i
-      class="fa fa-hashtag"></i></a>
+    <a class="pkg-link action" title="permalink" href="#pkg-serde_json"><i
+            class="fa fa-hashtag"></i></a>
+  </div>
 
   
   <p class="pkg-meta">
@@ -311,24 +286,27 @@
   
 <li id="pkg-serde_yaml" class="pkg">
   <span class="pkg-name"
-    title="est. 2016-02-27, last updated: 2020-10-31">serde_yaml</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/serde_yaml"><i class="fa fa-cube"></i></a>
-  
+    title="est. 2016-02-27, last updated: 2024-01-02">serde_yaml</span>
 
-  
+  <div class="pkg-links">
+    
+    <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/serde_yaml"><i class="fa fa-cube"></i></a>
+    
+
+    
 
 
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;serde_yaml&#x2F;"><i class="fa fa-book"></i></a>
-  
+    
+    <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;serde_yaml&#x2F;"><i class="fa fa-book"></i></a>
+    
 
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;dtolnay&#x2F;serde-yaml"><i class="fa fa-code"></i></a>
-  
+    
+    <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;dtolnay&#x2F;serde-yaml"><i class="fa fa-code"></i></a>
+    
 
-  <a class="pkg-link action" title="permalink" href="#pkg-serde_yaml"><i
-      class="fa fa-hashtag"></i></a>
+    <a class="pkg-link action" title="permalink" href="#pkg-serde_yaml"><i
+            class="fa fa-hashtag"></i></a>
+  </div>
 
   
   <p class="pkg-meta">
@@ -342,7 +320,7 @@
     </p>
   
   <p class="pkg-desc">
-    YAML support for Serde
+    YAML data format for Serde
   </p>
 </li>
 
@@ -354,24 +332,27 @@
   
 <li id="pkg-serde_bytes" class="pkg">
   <span class="pkg-name"
-    title="est. 2017-04-08, last updated: 2020-06-11">serde_bytes</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/serde_bytes"><i class="fa fa-cube"></i></a>
-  
+    title="est. 2017-04-08, last updated: 2024-01-02">serde_bytes</span>
 
-  
+  <div class="pkg-links">
+    
+    <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/serde_bytes"><i class="fa fa-cube"></i></a>
+    
+
+    
 
 
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.serde.rs&#x2F;serde_bytes&#x2F;"><i class="fa fa-book"></i></a>
-  
+    
+    <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;serde_bytes"><i class="fa fa-book"></i></a>
+    
 
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;serde-rs&#x2F;bytes"><i class="fa fa-code"></i></a>
-  
+    
+    <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;serde-rs&#x2F;bytes"><i class="fa fa-code"></i></a>
+    
 
-  <a class="pkg-link action" title="permalink" href="#pkg-serde_bytes"><i
-      class="fa fa-hashtag"></i></a>
+    <a class="pkg-link action" title="permalink" href="#pkg-serde_bytes"><i
+            class="fa fa-hashtag"></i></a>
+  </div>
 
   
   <p class="pkg-meta">
@@ -397,26 +378,27 @@
   
 <li id="pkg-toml" class="pkg">
   <span class="pkg-name"
-    title="est. 2014-11-11, last updated: 2020-10-11">toml</span>
-  
-  <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/toml"><i class="fa fa-cube"></i></a>
-  
+    title="est. 2014-11-11, last updated: 2023-11-06">toml</span>
 
-  
-  <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;alexcrichton&#x2F;toml-rs"><i class="fa fa-home"></i></a>
-  
+  <div class="pkg-links">
+    
+    <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/toml"><i class="fa fa-cube"></i></a>
+    
+
+    
+    <a class="pkg-link" title="homepage" href="https:&#x2F;&#x2F;github.com&#x2F;toml-rs&#x2F;toml"><i class="fa fa-home"></i></a>
+    
 
 
-  
-  <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;toml"><i class="fa fa-book"></i></a>
-  
+    
 
-  
-  <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;alexcrichton&#x2F;toml-rs"><i class="fa fa-code"></i></a>
-  
+    
+    <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;toml-rs&#x2F;toml"><i class="fa fa-code"></i></a>
+    
 
-  <a class="pkg-link action" title="permalink" href="#pkg-toml"><i
-      class="fa fa-hashtag"></i></a>
+    <a class="pkg-link action" title="permalink" href="#pkg-toml"><i
+            class="fa fa-hashtag"></i></a>
+  </div>
 
   
   <p class="pkg-meta">
@@ -425,7 +407,7 @@
     <img src="https://img.shields.io/crates/l/toml.svg" />
     
       
-      <img src="https://img.shields.io/github/last-commit/alexcrichton&#x2F;toml-rs.svg">
+      <img src="https://img.shields.io/github/last-commit/toml-rs&#x2F;toml.svg">
     
     </p>
   
@@ -439,26 +421,72 @@ facilitate deserializing and serializing Rust structures.
 
 
   
-</ul>
+  
 
 
+  
+<li id="pkg-quick-xml" class="pkg">
+  <span class="pkg-name"
+    title="est. 2016-02-01, last updated: 2023-10-23">quick-xml</span>
+
+  <div class="pkg-links">
+    
+    <a class="pkg-link" title="crates.io link" href="https://crates.io/crates/quick-xml"><i class="fa fa-cube"></i></a>
+    
+
+    
 
 
+    
+    <a class="pkg-link" title="documentation" href="https:&#x2F;&#x2F;docs.rs&#x2F;quick-xml"><i class="fa fa-book"></i></a>
+    
 
+    
+    <a class="pkg-link" title="repository" href="https:&#x2F;&#x2F;github.com&#x2F;tafia&#x2F;quick-xml"><i class="fa fa-code"></i></a>
+    
 
-
-
-
-<div class="alert-box">
-  <h3>Do you know something we don't?</h3>
-  <p>Did we miss an important crate? Or maybe you just recently launched something that should be listed here, too? <a
-      href="https://github.com/bashyHQ/arewewebyet/issues/new" target="_blank">Let us know</a>!
-  </p>
-</div>
-
-
+    <a class="pkg-link action" title="permalink" href="#pkg-quick-xml"><i
+            class="fa fa-hashtag"></i></a>
   </div>
 
+  
+  <p class="pkg-meta">
+    <img src="https://img.shields.io/crates/v/quick-xml.svg" />
+    <img src="https://img.shields.io/crates/d/quick-xml.svg" />
+    <img src="https://img.shields.io/crates/l/quick-xml.svg" />
+    
+      
+      <img src="https://img.shields.io/github/last-commit/tafia&#x2F;quick-xml.svg">
+    
+    </p>
+  
+  <p class="pkg-desc">
+    High performance xml reader and writer
+  </p>
+</li>
+
+
+  
+</ul>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="alert-box">
+    <h3>Do you know something we don't?</h3>
+    <p>Did we miss an important crate? Or maybe you just recently launched something that should be listed here, too? <a
+            href="https://github.com/bashyHQ/arewewebyet/issues/new" target="_blank">Let us know</a>!
+    </p>
+  </div>
+
+</article>
+
+  </main>
 
   <footer>
     <div class="devider">
@@ -490,12 +518,9 @@ facilitate deserializing and serializing Rust structures.
           </li>
         </ul>
       </div>
-      <div class="call-to-action">
-
-      </div>
     </div>
     <p class="last-updated">
-      Last updated 08 November 2020 - <a href="https://github.com/rust-net-web/arewewebyet/#license">CC-BY-4.0</a>
+      Last updated 04 January 2024 - <a href="https://github.com/rust-net-web/arewewebyet/#license">CC-BY-4.0</a>
     </p>
   </footer>
 </body>
