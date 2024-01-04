@@ -18,7 +18,7 @@ server = [
   "axum",
   "poem",
   "salvo",
-  "lucia"
+  "wtx"
 ]
 
 frontend = [

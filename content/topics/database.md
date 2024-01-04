@@ -25,7 +25,8 @@ drivers = [
   "cdrs",
   "memcache",
   "mongodb",
-  "sqlx"
+  "sqlx",
+  "wtx"
 ]
 
 orms = [
@@ -36,10 +37,10 @@ orms = [
 ]
 
 pools = [
-    "mobc",
-    "deadpool",
-    "bb8",
-    "r2d2"
+  "mobc",
+  "deadpool",
+  "bb8",
+  "r2d2"
 ]
 
 tools = [
